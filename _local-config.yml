@@ -1,0 +1,38 @@
+title: smileprem
+tagline: on a journey called life
+url: http://localhost:4000
+#logo: add-some-logo-here
+copyright: copyleft @ 2009.
+
+author: Premkumar Masilamani
+email: xxx@xxx.xxx
+mobile: xxx-xxx-xxxx
+
+social:
+  name: Premkumar Masilamani
+  links:
+    - https://www.linkedin.com/in/premkumarmasilamani
+    - https://github.com/smileprem
+
+include:
+  - "_pages"
+
+plugins:
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+paginate: 150
+
+permalink: /:title/
+
+img-path: http://localhost:4000/public/images
+audio-path: http://localhost:4000/public/audio
+
+newsletter: https://eepurl.com/dE1QD1
+contact-form: https://www.emailmeform.com/builder/form/bi73zffJbc078cHP6p6fhfr
+english-blog: https://blog.smileprem.com/
+tamil-blog: https://tamil.smileprem.com/
+
+donation: https://www.blockchain.com/btc/address/14hjWY7QzpD5mjPhmYs8FHrm3aJiEKX82s
