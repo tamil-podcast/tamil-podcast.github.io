@@ -23,6 +23,12 @@ layout: default
   <br/><br/>
   <a href="{{ site.url }}">முகப்பு</a>&nbsp;&gt;&nbsp;<a href="{{ site.url }}/categories">தொகுப்புகள்</a>&nbsp;&gt;&nbsp;<a href="{{ site.url }}/category/{{ page.category }}">{{ page.category_tamil }}</a>
   <br/><br/>
+  <img src="{{ page.image_url }}" alt="{{ page.title }}" style="width: 50%; text-align: center;"/><br/><br/>
+  <audio controls style="width: 50%; text-align: center;">
+    <source src="{{ page.audio_url }}" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  <br/>
   {{ content }}
   <a href="{{ site.url }}">முகப்பு</a>&nbsp;&gt;&nbsp;<a href="{{ site.url }}/categories">தொகுப்புகள்</a>&nbsp;&gt;&nbsp;<a href="{{ site.url }}/category/{{ page.category }}">{{ page.category_tamil  }}</a>
 </div>

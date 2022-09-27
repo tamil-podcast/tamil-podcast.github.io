@@ -1,11 +1,16 @@
-title: smileprem
-tagline: on a journey called life
-url: https://podcast.smileprem.com
+title: அன்புடன்
+tagline: >
+  This is a tamil podcast. Here i talk about my random thoughts and trying to connect/convey them to the world through this !<br>
+  <br>
+  At the end, all I wanted is to ‘Make it meaningful’ !<br>
+  <br>
+  https://www.instagram.com/anbudan.podcast/<br>
+url: https://tamil-podcast.smileprem.com
 #logo: add-some-logo-here
 copyright: copyleft @ 2009.
 
-author: Premkumar Masilamani
-email: xxx@xxx.xxx
+author: Anbu Siva
+email: tamil-podcast@smileprem.com
 mobile: xxx-xxx-xxxx
 
 social:
@@ -23,12 +28,12 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-paginate: 150
+paginate: 100
 
 permalink: /:title/
 
-img-path: https://podcast.smileprem.com/public/images
-audio-path: https://podcast.smileprem.com/public/audio
+img-path: https://tamil-podcast.smileprem.com/public/images
+audio-path: https://tamil-podcast.smileprem.com/public/audio
 
 newsletter: https://eepurl.com/dE1QD1
 contact-form: https://www.emailmeform.com/builder/form/bi73zffJbc078cHP6p6fhfr
@@ -36,3 +41,5 @@ english-blog: https://blog.smileprem.com/
 tamil-blog: https://tamil.smileprem.com/
 
 donation: https://www.blockchain.com/btc/address/14hjWY7QzpD5mjPhmYs8FHrm3aJiEKX82s
+
+podcast-image-url: https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/23904365/23904365-1649247636302-7ad4ee4e611e4.jpg
