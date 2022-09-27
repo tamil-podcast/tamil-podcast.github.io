@@ -3,7 +3,7 @@ layout: empty
 date: 2015-03-01 00:00:00 +0530
 permalink: /feed.xml
 ---
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom">
 	<channel>
 		<title>{{ site.title }}</title>
 		<link>{{ site.url }}</link>
@@ -18,7 +18,7 @@ permalink: /feed.xml
 		<generator>Jekyll Liquid Template in Github</generator>		
 		<managingEditor>{{ site.email }} ({{ site.author }})</managingEditor>
 		<webMaster>{{ site.email }} ({{ site.author }})</webMaster>
-		{% for post in site.posts limit:1000 %}
+		{% for post in site.posts limit:10 %}
 			<item>
 				<title>{{ post.title | xml_escape }}</title>
 				<link>{{ site.url }}{{ post.url }}</link>

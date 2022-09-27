@@ -6,7 +6,7 @@ permalink: /category/podcast/
 ---
 
 <div>
-    <a href="{{ site.url }}">home</a>&nbsp;&gt;&nbsp;<a href="{{ site.url }}/categories">categories</a>&nbsp;&gt;&nbsp;<a href="{{ site.url }}/category/podcast/">podcast</a>
+    <a href="{{ site.url }}">முகப்பு</a>&nbsp;&gt;&nbsp;<a href="{{ site.url }}/categories">தொகுப்புகள்</a>&nbsp;&gt;&nbsp;<a href="{{ site.url }}/category/podcast/">வளையொலி</a>
   	
 	<ul>
     {% for post in site.categories.podcast %}

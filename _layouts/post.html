@@ -3,12 +3,28 @@ layout: default
 ---
 <div>
   <h2>{{ page.title }}</h2>
-  {{ page.date | date_to_string }}
+  {% assign m = page.date | date: "%-m" %}
+  {{ page.date | date: "%-d" }}
+  {% case m %}
+  {% when '1' %}ஜனவரி
+  {% when '2' %}பிப்ரவரி
+  {% when '3' %}மார்ச்
+  {% when '4' %}ஏப்ரல்
+  {% when '5' %}மே
+  {% when '6' %}ஜூன்
+  {% when '7' %}ஜூலை
+  {% when '8' %}ஆகஸ்ட்
+  {% when '9' %}செப்டம்பர்
+  {% when '10' %}அக்டோபர்
+  {% when '11' %}நவம்பர்
+  {% when '12' %}டிசம்பர்
+  {% endcase %}
+  {{ page.date | date: "%Y" }}
   <br/><br/>
-  <a href="{{ site.url }}">home</a>&nbsp;&gt;&nbsp;<a href="{{ site.url }}/categories">categories</a>&nbsp;&gt;&nbsp;<a href="{{ site.url }}/category/{{ page.category }}">{{ page.category | camelcase }}</a>
+  <a href="{{ site.url }}">முகப்பு</a>&nbsp;&gt;&nbsp;<a href="{{ site.url }}/categories">தொகுப்புகள்</a>&nbsp;&gt;&nbsp;<a href="{{ site.url }}/category/{{ page.category }}">{{ page.category_tamil }}</a>
   <br/><br/>
   {{ content }}
-  <a href="{{ site.url }}">home</a>&nbsp;&gt;&nbsp;<a href="{{ site.url }}/categories">categories</a>&nbsp;&gt;&nbsp;<a href="{{ site.url }}/category/{{ page.category }}">{{ page.category | camelcase }}</a>  
+  <a href="{{ site.url }}">முகப்பு</a>&nbsp;&gt;&nbsp;<a href="{{ site.url }}/categories">தொகுப்புகள்</a>&nbsp;&gt;&nbsp;<a href="{{ site.url }}/category/{{ page.category }}">{{ page.category_tamil  }}</a>
 </div>
 <div>
   <br/>
@@ -16,15 +32,15 @@ layout: default
   <br/>
 </div>
 <div>
-  {% if page.previous.url %} 
-    <a href="{{page.previous.url}}">&lt;&lt; Older</a>
+  {% if page.previous.url %}
+  <a href="{{page.previous.url}}">&lt;&lt;&nbsp;பழையன</a>
   {% else %}
-    Older
+  பழையன
   {% endif %}
-  {% if page.next.url %} 
-    <a href="{{page.next.url}}">Newer &gt;&gt;</a>
+  {% if page.next.url %}
+  <a href="{{page.next.url}}">புதியன&nbsp;&gt;&gt;</a>
   {% else %}
-    Newer
+  புதியன
   {% endif %}
 </div>
 <br/>
