@@ -1,23 +1,9 @@
-title: அன்புடன்
-tagline: >
-  This is a tamil podcast. Here i talk about my random thoughts and trying to connect/convey them to the world through this !<br>
-  <br>
-  At the end, all I wanted is to ‘Make it meaningful’ !<br>
-  <br>
-  https://www.instagram.com/anbudan.podcast/<br>
-url: http://localhost:4000
-#logo: add-some-logo-here
-copyright: copyleft @ 2009.
-
-author: Anbu Siva
+title: இங்க என்ன சொல்லுது?
+tagline: இங்க என்ன சொல்லுதோ அதை உங்களுக்கு சொல்றேன். கேளுங்க. பிடிச்சிருந்தா, நண்பர்களுக்கு சொல்லுங்க. நன்றி வணக்கம் !!!
+author: பிரேம்குமார் மாசிலாமணி
 email: tamil-podcast@smileprem.com
-mobile: xxx-xxx-xxxx
-
-social:
-  name: Premkumar Masilamani
-  links:
-    - https://www.linkedin.com/in/premkumarmasilamani
-    - https://github.com/smileprem
+url: http://localhost:4000
+copyright: copyleft @ 2009.
 
 include:
   - "_pages"
@@ -28,18 +14,12 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-paginate: 100
+paginate: 1000
 
 permalink: /:title/
 
 img-path: http://localhost:4000/public/images
 audio-path: http://localhost:4000/public/audio
 
-newsletter: https://eepurl.com/dE1QD1
-contact-form: https://www.emailmeform.com/builder/form/bi73zffJbc078cHP6p6fhfr
 english-blog: https://blog.smileprem.com/
 tamil-blog: https://tamil.smileprem.com/
-
-donation: https://www.blockchain.com/btc/address/14hjWY7QzpD5mjPhmYs8FHrm3aJiEKX82s
-
-podcast-image-url: https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/23904365/23904365-1649247636302-7ad4ee4e611e4.jpg

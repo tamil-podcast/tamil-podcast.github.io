@@ -10,7 +10,7 @@ permalink: /feed.xml
 		<description><![CDATA[{{ site.tagline }}]]></description>
         <link>{{ site.url }}</link>
         <image>
-            <url>{{ site.podcast-image-url }}</url>
+            <url>{{ site.img-path }}/ies-cover-art.jpg</url>
             <title><![CDATA[{{ site.title }}]]></title>
             <link>{{ site.url }}</link>
         </image>
@@ -37,7 +37,7 @@ permalink: /feed.xml
         <itunes:category text="Society &amp; Culture">
             <itunes:category text="Personal Journals"/>
         </itunes:category>
-        <itunes:image href="{{ site.podcast-image-url }}"/>
+        <itunes:image href="{{ site.img-path }}/ies-cover-art.jpg"/>
 		{% for post in site.posts limit:10 %}
 			<item>
 				<title><![CDATA[{{ post.title }}]]></title>
