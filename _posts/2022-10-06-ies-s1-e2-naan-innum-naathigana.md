@@ -5,7 +5,7 @@ date: 2022-10-06
 category: podcast
 category_tamil: வளையொலி
 image_url: https://tamil-podcast.smileprem.com/public/images/ies-cover-art.jpg
-audio_url: https://tamil-podcast.smileprem.com/public/audio/ies-s1-e2-naan-innum-naathigana.m4a
+audio_url: https://tamil-podcast.smileprem.com/public/audio/ies-s1-e2-naan-innum-naathigana.mp4
 audio_length: 17645229
 audio_duration: 00:18:10
 season: 1
